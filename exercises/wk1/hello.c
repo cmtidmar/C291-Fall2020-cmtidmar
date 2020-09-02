@@ -22,16 +22,16 @@ int main(void) {
 
   // Assignment 1
  printf("{Welcome to Fall2020 - 'Corona-affected' 8-Week session @ IU}, \n Every week, please start early and  ask for help! Also, let's try to stay safe! //\n");
- int a; 
- for ( a = 100; a < 101; a--){      
-   printf("%d", a);
-   int i;
-   for (i = 0; i < 5; i++){
-     printf(".");
-     fflush(stdout);
-     sleep(1);
+ int a; // initialize a variable for your count down 
+ for ( a = 100; a < 101; a--){      // for loop that decreases by 1  forever from 100 - ...
+   printf("%d", a); // prints the countdown
+   int i; // initizalize i for the ". . . . ."
+   for (i = 0; i < 5; i++){ // for loop for the ". . . . ."
+     printf("."); 
+     fflush(stdout); // delays each ".",
+     sleep(1); // for one second
  }
-   printf("\n");
+   printf("\n"); // prints a new line after the 5th dot
  }
       
  return(0);
