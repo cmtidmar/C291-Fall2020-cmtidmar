@@ -10,12 +10,29 @@
 #include <stdio.h>
 
 int main(void) {
- // int myNumber = 0;
- // printf("Hello: Welcome to C291!\n");
- // printf("Please enter a number and press ENTER: ");
- // scanf("%d", &myNumber);  
- // printf("Here is the number yor entered: %d\n",myNumber);
- printf("Name: Clare Meichuan Tidmarsh\n");
- printf("Days Alive: 7,590 days"); 
- return(0); }
 
+ 
+  //Assignment 0
+
+ printf("Name: Clare Meichuan Tidmarsh\n");
+ printf("Days Alive: 7,590 days\n"); 
+ printf("");
+
+ 
+
+  // Assignment 1
+ printf("{Welcome to Fall2020 - 'Corona-affected' 8-Week session @ IU}, \n Every week, please start early and  ask for help! Also, let's try to stay safe! //\n");
+ int a; 
+ for ( a = 100; a < 101; a--){      
+   printf("%d", a);
+   int i;
+   for (i = 0; i < 5; i++){
+     printf(".");
+     fflush(stdout);
+     sleep(1);
+ }
+   printf("\n");
+ }
+      
+ return(0);
+}
